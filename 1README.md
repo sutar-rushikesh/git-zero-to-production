@@ -101,19 +101,36 @@ flowchart LR
 
 ------------------------------------------------------------------------
 
-# 🔁 Rebase vs Merge Visual
+## 🔁 Rebase vs Merge Visual
+
+### Merge -- Non Linear History
 
 ``` mermaid
 gitGraph
-   commit
+   commit id: "Initial"
    branch feature
    checkout feature
-   commit
+   commit id: "Feature Work"
    checkout main
-   commit
-   checkout feature
-   rebase main
+   commit id: "Main Update"
+   merge feature tag: "Merge Commit"
 ```
+
+### Rebase -- Linear History
+
+``` mermaid
+gitGraph
+   commit id: "Initial"
+   branch feature
+   checkout feature
+   commit id: "Feature Work"
+   checkout main
+   commit id: "Main Update"
+   checkout feature
+   commit id: "Feature Work (Rebased)"
+```
+
+------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
 
