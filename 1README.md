@@ -197,8 +197,9 @@ git tag
 
 ## 👨‍💻 Author
 
-DevOps Engineer\
-Enterprise Workflow Practitioner\
+Rushikesh Sutar\
+DevOps Engineer
+
 Focused on Production-Ready Git Practices
 
 ------------------------------------------------------------------------
