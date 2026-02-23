@@ -165,7 +165,7 @@ This project follows structured commit practices:
 ✔ Version tagging for releases\
 ✔ Hotfix tracking
 
-To view contribution activity: Go to GitHub → Insights → Contributors
+To view contribution activity : Go to GitHub → Insights → Contributors
 
 ------------------------------------------------------------------------
 
